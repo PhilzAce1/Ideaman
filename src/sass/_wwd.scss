@@ -1,0 +1,62 @@
+.what_we_do {
+  padding: 20vh;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  @include media('<=tablet') {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  background: #182538;
+  header {
+    width: 80%;
+    @include media('<=tablet') {
+      width: 100%;
+    }
+    h2 {
+      width: 92%;
+      font-size: 3em;
+      color: white;
+    }
+  }
+  div {
+    margin-top: 10vh;
+    display: grid;
+    grid-template: 57vh 57vh / 50% 50%;
+    gap: 50px;
+    padding: 10px 30px;
+    width: 80%;
+    padding: 10px;
+    @include media('<=tablet') {
+      padding: 0px;
+      width: 100%;
+      position: relative;
+      grid-template: 60vh 60vh 60vh 60vh / 1fr;
+    }
+    .wcards {
+      background: $white;
+      border-radius: 10px;
+      padding: 12%;
+      padding-bottom: 8%;
+      h2 {
+        color: #621b6a;
+        margin: 10px 0;
+      }
+      p {
+        color: #71727e;
+        line-height: 1.7;
+      }
+      a {
+        text-decoration: none;
+        color: #621b6a;
+        font-weight: bolder;
+        padding-bottom: 7px;
+        font-size: 0.8em;
+        border-bottom: 3px solid #621b6a;
+        margin-top: 20px;
+      }
+    }
+  }
+}

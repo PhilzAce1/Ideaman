@@ -1,0 +1,47 @@
+section.our_clients {
+  height: 100vh;
+  width: 100%;
+  background: $white;
+  padding: 20vh;
+  header {
+    display: flex;
+    align-items: center;
+    span {
+      width: 50px;
+      height: 3px;
+      background: black;
+      margin: 0 30px;
+    }
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h1 {
+    margin-top: 30px;
+    font-size: 3em;
+  }
+  @include media('<=tablet') {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  article {
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template: 50% 50% / repeat(5, 20%);
+    gap: 8px;
+    margin-top: 7%;
+    @include media('<=tablet') {
+      height: 90%;
+      width: 100%;
+      margin-top: 10%;
+      padding-right: 20px;
+      grid-template: repeat(5, 20%) / repeat(2, 50%);
+    }
+    .logo_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

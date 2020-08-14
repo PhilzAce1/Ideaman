@@ -1,0 +1,56 @@
+footer {
+  background: #182538;
+  padding: 10%;
+  padding-left: 6%;
+  .top {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    @include media('<=tablet') {
+      flex-flow: column nowrap;
+    }
+    ul {
+      flex-flow: column wrap;
+      height: 20vh;
+      &::before {
+        color: gray;
+        transform: translate(10px, -50%);
+      }
+      &:nth-child(1)::before {
+        content: 'Our Offces';
+        position: absolute;
+      }
+      &:nth-child(2)::before {
+        content: 'GENERAL';
+        position: absolute;
+      }
+      &:nth-child(3)::before {
+        content: 'NEW BUSINESS';
+        position: absolute;
+      }
+      li {
+        margin: 10px;
+        color: $white;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-around;
+    @include media('<=tablet') {
+      flex-flow: column nowrap;
+    }
+  }
+  li {
+    margin: 0 20px;
+    color: $white;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
