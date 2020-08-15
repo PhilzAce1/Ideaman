@@ -69,7 +69,10 @@ main {
 section {
   transition: transform 0.25s;
   will-change: transform;
+  width: 100%;
+  overflow-x: hidden !important;
 }
+
 .preloader {
   width: 100vw;
   height: 100vh;
@@ -169,4 +172,7 @@ ul {
 }
 li {
   list-style: none;
+}
+html {
+  background: red;
 }

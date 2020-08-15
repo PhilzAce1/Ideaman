@@ -39,7 +39,7 @@ section.works {
     @include media('<=tablet') {
       padding: 20px;
       position: relative;
-      grid-template: 60vh 60vh 60vh 60vh 60vh / 1fr;
+      grid-template: 75vh 75vh 75vh 75vh 75vh / 1fr;
     }
     .display_cards {
       margin: 10px;
