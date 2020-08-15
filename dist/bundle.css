@@ -258,13 +258,14 @@ section.landing div.text aside {
   justify-content: center;
 }
 section.landing div.text aside img {
-  height: 100%;
+  height: auto;
   max-width: 100%;
 }
 @media (min-width: 768px) {
   section.landing div.text aside {
-    height: 100%;
+    height: auto;
     width: 45%;
+    transform: translate(-10%, -10%);
     flex-flow: row nowrap;
   }
 }

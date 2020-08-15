@@ -64,13 +64,14 @@ section.landing {
       display: flex;
       justify-content: center;
       img {
-        height: 100%;
+        height: auto;
         max-width: 100%;
         // display: none;
       }
       @include media('>=tablet') {
-        height: 100%;
+        height: auto;
         width: 45%;
+        transform: translate(-10%, -10%);
         flex-flow: row nowrap;
       }
     }
