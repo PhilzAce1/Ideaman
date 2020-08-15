@@ -151,6 +151,10 @@
       background: $white;
       transform: translateX(100%);
       transform: translateY(20%);
+      @include media('<=tablet') {
+        display: none;
+        background: green;
+      }
     }
   }
   h1 {

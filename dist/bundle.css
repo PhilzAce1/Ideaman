@@ -690,6 +690,12 @@ section.works aside a {
   transform: translateX(100%);
   transform: translateY(20%);
 }
+@media (max-width: 768px) {
+  .let_us h3::after {
+    display: none;
+    background: green;
+  }
+}
 .let_us h1 {
   font-size: 3.4em;
   margin: 0;
