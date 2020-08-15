@@ -181,10 +181,6 @@ li {
   list-style: none;
 }
 
-html {
-  background: red;
-}
-
 section.landing {
   width: 100%;
   min-height: 130vh;
