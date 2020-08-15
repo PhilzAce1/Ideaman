@@ -12,9 +12,9 @@ function loadingEffect() {
       display: 'none',
     })
     .to('.welcome_conatainer div', {
-      duration: 0.3,
+      duration: 0.9,
       text: {
-        value: 'IDEAMAN',
+        value: 'IDEAMASN',
         delimiter: '',
       },
     })

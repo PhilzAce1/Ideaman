@@ -41,6 +41,8 @@ section.landing {
       }
     }
     #nav_btn {
+      display: none;
+
       @include media('>=tablet') {
         display: none;
       }

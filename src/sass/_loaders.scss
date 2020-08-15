@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .loader_container {
   margin: 0px;
   background: radial-gradient(#cecece, #fff);
@@ -20,11 +21,16 @@
   position: absolute;
   z-index: 99;
   position: fixed;
+  font-family: 'Pacifico', cursive;
+  color: rgb(29, 27, 27);
+  letter-spacing: 1.4;
+
+  text-shadow: 10px 10px rgba(0, 0, 0, 0.404);
 
   div {
     font-size: 3em;
     @media (min-width: 450px) {
-      font-size: 10em;
+      font-size: 8em;
     }
   }
 }
